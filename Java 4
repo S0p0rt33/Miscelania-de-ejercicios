@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Main {
+
+public static void main(String[] args) {
+
+Scanner sc = new Scanner(System.in);
+
+double euro;
+
+System.out.println("Ingresa la cantidad de euros: ");
+
+euro = sc.nextDouble();
+
+double dolar = euro * 1.06;
+
+System.out.printf("el valor ingresado en euros equivale a " + dolar + "dolares");
+
+
+  }
+}
