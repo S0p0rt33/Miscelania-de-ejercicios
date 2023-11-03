@@ -1,0 +1,11 @@
+class Main { 
+  public static void main(String[] args) {
+    float area_triangulo = 0;
+    int base = 10;
+    int altura = 15;
+
+    area_triangulo = (base*altura)/2;
+
+    System.out.println("El área del triángulo es " + area_triangulo);
+  }
+}
