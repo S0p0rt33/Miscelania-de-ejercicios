@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+class Main {
+
+public static void main(String[] args) {
+
+Scanner valor = new Scanner(System.in);
+
+int lado;
+
+System.out.println("Ingresa el valor del lado de un cuadrado: "); 
+lado = valor.nextInt();
+
+int area = lado * lado;
+
+int perimetro = lado * 4;
+
+System.out.println("El area del cuadrado es: " + area);
+
+System.out.println("El perimetro del cuadrado es: " + perimetro);
+
+
+  }
+}
